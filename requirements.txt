@@ -3,4 +3,5 @@ pandas
 spacy
 scikit-learn
 matplotlib
-https://github.com/AkulaSrinithya24/Ai_powered_resume_screening_and_ranking_system/blob/main/app.py
+tqdm
+requests
