@@ -1,10 +1,15 @@
 import streamlit as st
 import pandas as pd
 import spacy
+import subprocess
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 import matplotlib.pyplot as plt
 import os
+
+# Ensure required dependencies are installed
+subprocess.run(["pip", "install", "--upgrade", "pip"])
+subprocess.run(["pip", "install", "-r", "requirements.txt"])
 
 # Load Spacy Model (Assumes en_core_web_sm is installed via requirements.txt)
 try:
